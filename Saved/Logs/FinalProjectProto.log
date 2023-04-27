@@ -4308,3 +4308,1394 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.04.27-23.31.32:178][486]AssetCheck: New page: Asset Save: multiple assets
 [2023.04.27-23.31.32:178][486]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
 [2023.04.27-23.31.32:178][486]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.32.15:402][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.32.15:432][771]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2023.04.27-23.32.15:517][771]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent98DD6E354CC028580CE625AE6C7659AF.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.32.15:524][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.32.15:632][771]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltDataC51B4E514A571EED8483268B2F01A981.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.32.15:652][771]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.32.15:652][771]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.32.15:652][771]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.32.27:058][387]MapCheck: New page: Map Check
+[2023.04.27-23.32.27:110][387]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.32.27:111][387]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.32.27:518][387]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.32.27:751][387]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.32.27:751][387]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.32.27:751][387]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.32.27:788][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.04.27-23.32.27:913][387]LogLevel: Display: Export Material TexCoord Scales took 0.115 seconds.
+[2023.04.27-23.32.28:013][387]TextureStreamingBuild: Display: Build Texture Streaming took 0.100 seconds.
+[2023.04.27-23.32.28:038][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.04.27-23.32.28:057][387]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:32:28 PM
+[2023.04.27-23.32.28:202][387]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.32.28:380][387]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.32.28:402][387]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.32.29:448][387]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.32.29:448][387]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.32.36:565][387]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.32.36:616][387]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.32.36:616][387]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.32.36:616][387]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.32.36:616][387]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.32.36:616][387]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.32.36:908][387]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.32.36:908][387]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:32:36 PM
+[2023.04.27-23.32.36:969][387]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.27ms to complete.
+[2023.04.27-23.32.36:985][387]LogEditorBuildUtils: Build time 0:09
+[2023.04.27-23.32.38:022][389]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-23.32.38:022][389]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.04.27-23.32.38:022][389]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.04.27-23.32.38:022][389]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.04.27-23.32.38:022][389]LogShaderCompilers: Display: ================================================
+[2023.04.27-23.32.38:630][393]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2023.04.27-23.32.52:158][109]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.52:158][109]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.52:895][148]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.52:895][148]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.53:218][164]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.32.53:218][164]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.53:636][186]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.53:636][186]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.53:816][193]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.53:816][193]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.54:327][216]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.54:327][216]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.54:796][232]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.32.54:796][232]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.55:875][281]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.55:875][281]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.57:197][344]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.32.57:197][344]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.58:089][392]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.32.58:089][392]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.58:850][431]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.32.58:850][431]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.59:113][443]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.32.59:113][443]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.59:178][446]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.59:178][446]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.59:613][468]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.32.59:613][468]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.59:851][479]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.32.59:851][479]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.59:917][482]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.32.59:917][482]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.32.59:955][483]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.32.59:955][483]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.33.02:766][623]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.33.02:766][623]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.33.02:852][626]Job is a success!
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.039s
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.33.03:205][627]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.33.03:622][627]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.33.03:622][627]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.33.03:622][627]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.33.03:622][627]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.33.03:622][627]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.33.03:622][627]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.33.03:622][627]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.33.03:622][627]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.33.03:622][627]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.33.03:622][627]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.33.03:759][627]Lightmass on DESKTOP-TOA83MN: 23.1 sec total, 1.80 sec importing, 816 ms setup, 8.52 sec photons, 11.9 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:23 min total, 50.1 sec processing.
+[2023.04.27-23.33.03:806][627]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.33.04:219][627]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2023.04.27-23.33.04:283][627]LogStaticLightingSystem: Illumination: 36.1 sec (256 ms encoding lightmaps, 11 ms encoding shadowmaps)
+[2023.04.27-23.33.04:284][627]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.33.04:284][627]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.33.09:664][627]DumpUnbuiltLightIteractions
+[2023.04.27-23.33.09:664][627]Lights with unbuilt interactions: 0
+[2023.04.27-23.33.09:664][627]
+[2023.04.27-23.33.09:664][627]Primitives with unbuilt interactions: 0
+[2023.04.27-23.33.09:799][627]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.33.09:867][628]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.33.09:867][628]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:33:09 PM
+[2023.04.27-23.33.09:868][628]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.882ms to complete.
+[2023.04.27-23.33.14:388][867]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.33.14:421][867]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.33.15:781][947]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.33.15:788][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.33.15:788][947]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:33:15 PM)
+[2023.04.27-23.33.15:789][947]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.33.15:821][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032447s)
+[2023.04.27-23.33.15:822][947]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.33.15:823][947]LogPlayLevel: PIE: World Init took: (0.001485s)
+[2023.04.27-23.33.15:823][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.034242s)
+[2023.04.27-23.33.15:850][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.04.27-23.33.15:853][947]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.04.27-23.33.15:853][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.33.15:853][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.33.15:853][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.33.15:853][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.33.15:853][947]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.33.15:853][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.33.15:854][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.33.15:854][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.33.15:854][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.33.15:854][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.33.15:854][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.33.15:854][947]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.33.15:858][947]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.33.15:993][947]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.33.15:993][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.33.15:993][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.33.15:993][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.33.15:995][947]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.33.15:995][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.33.15:995][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.33.15:996][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.33.15:996][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.33.15:996][947]LogInit: FAudioDevice initialized.
+[2023.04.27-23.33.15:996][947]LogAudio: Display: Audio Device (ID: 41) registered with world 'mansionCurrent'.
+[2023.04.27-23.33.16:007][947]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.33.16:014][947]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.33.16
+[2023.04.27-23.33.16:015][947]LogWorld: Bringing up level for play took: 0.005966
+[2023.04.27-23.33.16:015][947]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2023.04.27-23.33.16:019][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.33.16:020][947]PIE: Server logged in
+[2023.04.27-23.33.16:021][947]PIE: Play in editor total start time 0.235 seconds.
+[2023.04.27-23.34.11:081][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.34.11:081][175]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.34.11:081][175]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.34.11:082][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.34.11:090][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.34.11:102][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.34.11:126][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.34.11:127][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.34.11:128][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.34.11:141][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.04.27-23.34.11:184][176]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2023.04.27-23.34.35:416][590]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.34.44:483][ 50]BlueprintLog: New page: Compile light_temp
+[2023.04.27-23.34.44:550][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2023.04.27-23.34.45:167][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/light_temp" FILE="../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset" SILENT=true
+[2023.04.27-23.34.45:211][ 77]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/light_temp98C46E9A44FE5CCB63EF4F9779997D87.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset'
+[2023.04.27-23.34.45:231][ 77]AssetCheck: New page: Asset Save: light_temp
+[2023.04.27-23.34.45:231][ 77]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.34.46:270][134]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.34.46:280][134]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.34.46:317][134]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.34.46:317][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.34.47:417][187]MapCheck: New page: Map Check
+[2023.04.27-23.34.47:440][187]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.34.47:440][187]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.34.47:691][187]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.34.47:763][187]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.34.47:763][187]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.34.47:763][187]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.34.47:797][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2023.04.27-23.34.47:844][187]LogLevel: Display: Export Material TexCoord Scales took 0.044 seconds.
+[2023.04.27-23.34.47:874][187]TextureStreamingBuild: Display: Build Texture Streaming took 0.031 seconds.
+[2023.04.27-23.34.47:901][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.04.27-23.34.47:904][187]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:34:47 PM
+[2023.04.27-23.34.47:911][187]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.34.47:915][187]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.34.47:915][187]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.34.47:916][187]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.34.47:916][187]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.34.52:623][187]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.34.52:624][187]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.34.52:624][187]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.34.52:624][187]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.34.52:624][187]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.34.52:624][187]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.34.52:785][187]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.34.52:785][187]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:34:52 PM
+[2023.04.27-23.34.52:786][187]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.938ms to complete.
+[2023.04.27-23.34.52:789][187]LogEditorBuildUtils: Build time 0:05
+[2023.04.27-23.34.53:012][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.04.27-23.35.05:558][890]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.05:558][890]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.06:354][933]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.06:354][933]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.06:582][942]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.35.06:582][942]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.06:933][960]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.06:955][961]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.07:243][976]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.07:243][976]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.07:762][  6]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.07:784][  7]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.08:168][ 16]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.35.08:168][ 16]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.09:303][ 79]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.09:303][ 79]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.10:763][161]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.35.10:763][161]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.11:694][211]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.35.11:694][211]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.12:424][251]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.35.12:424][251]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.12:634][261]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.35.12:634][261]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.12:725][265]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.12:725][265]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.13:119][287]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.35.13:119][287]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.13:381][300]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.35.13:381][300]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.13:432][302]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.35.13:432][302]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.13:480][304]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.35.13:480][304]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.16:258][456]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.35.16:280][457]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.35.16:384][458]Job is a success!
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.35.16:665][460]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.35.17:070][460]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.35.17:070][460]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.35.17:070][460]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.35.17:070][460]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.35.17:070][460]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.35.17:070][460]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.35.17:071][460]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.35.17:071][460]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.35.17:071][460]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.35.17:071][460]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.35.17:146][460]Lightmass on DESKTOP-TOA83MN: 22.9 sec total, 1.55 sec importing, 797 ms setup, 8.60 sec photons, 11.9 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:23 min total, 50.5 sec processing.
+[2023.04.27-23.35.17:164][460]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.35.17:207][460]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2023.04.27-23.35.17:245][460]LogStaticLightingSystem: Illumination: 29.2 sec (247 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.04.27-23.35.17:246][460]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.35.17:246][460]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.35.17:651][460]DumpUnbuiltLightIteractions
+[2023.04.27-23.35.17:651][460]Lights with unbuilt interactions: 0
+[2023.04.27-23.35.17:651][460]
+[2023.04.27-23.35.17:651][460]Primitives with unbuilt interactions: 0
+[2023.04.27-23.35.17:741][460]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.35.17:833][461]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.35.17:833][461]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:35:17 PM
+[2023.04.27-23.35.17:834][461]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.755ms to complete.
+[2023.04.27-23.35.39:906][755]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.35.39:912][755]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.35.41:009][818]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.35.41:016][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.35.41:017][818]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:35:41 PM)
+[2023.04.27-23.35.41:017][818]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.35.41:048][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031206s)
+[2023.04.27-23.35.41:049][818]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.35.41:050][818]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2023.04.27-23.35.41:050][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.032612s)
+[2023.04.27-23.35.41:078][818]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.04.27-23.35.41:083][818]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.35.41:083][818]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.35.41:083][818]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.35.41:084][818]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.35.41:084][818]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.35.41:084][818]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.35.41:084][818]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.35.41:088][818]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.35.41:199][818]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.35.41:200][818]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.35.41:200][818]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.35.41:200][818]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.35.41:200][818]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.35.41:200][818]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.35.41:200][818]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.35.41:202][818]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.35.41:202][818]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.35.41:202][818]LogInit: FAudioDevice initialized.
+[2023.04.27-23.35.41:202][818]LogAudio: Display: Audio Device (ID: 42) registered with world 'mansionCurrent'.
+[2023.04.27-23.35.41:216][818]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.35.41:223][818]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.35.41
+[2023.04.27-23.35.41:224][818]LogWorld: Bringing up level for play took: 0.006978
+[2023.04.27-23.35.41:224][818]LogOnline: OSS: Creating online subsystem instance for: :Context_92
+[2023.04.27-23.35.41:228][818]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.35.41:229][818]PIE: Server logged in
+[2023.04.27-23.35.41:230][818]PIE: Play in editor total start time 0.215 seconds.
+[2023.04.27-23.36.53:521][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.36.53:521][922]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.36.53:521][922]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.36.53:522][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.36.53:540][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.36.53:560][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.36.53:587][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.36.53:588][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.36.53:590][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.36.53:606][922]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2023.04.27-23.36.53:667][923]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2023.04.27-23.36.57:488][143]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp12)
+[2023.04.27-23.37.36:133][343]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.37.36:141][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.37.36:141][343]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:37:36 PM)
+[2023.04.27-23.37.36:142][343]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.37.36:176][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034005s)
+[2023.04.27-23.37.36:177][343]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.37.36:178][343]LogPlayLevel: PIE: World Init took: (0.001534s)
+[2023.04.27-23.37.36:178][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.035748s)
+[2023.04.27-23.37.36:207][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.04.27-23.37.36:214][343]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.37.36:214][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.37.36:214][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.37.36:215][343]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.37.36:215][343]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.37.36:215][343]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.37.36:215][343]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.37.36:221][343]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.37.36:340][343]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.37.36:341][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.37.36:341][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.37.36:341][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.37.36:341][343]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.37.36:341][343]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.37.36:341][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.37.36:343][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.37.36:343][343]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.37.36:343][343]LogInit: FAudioDevice initialized.
+[2023.04.27-23.37.36:343][343]LogAudio: Display: Audio Device (ID: 43) registered with world 'mansionCurrent'.
+[2023.04.27-23.37.36:356][343]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.37.36:365][343]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.37.36
+[2023.04.27-23.37.36:365][343]LogWorld: Bringing up level for play took: 0.008098
+[2023.04.27-23.37.36:366][343]LogOnline: OSS: Creating online subsystem instance for: :Context_93
+[2023.04.27-23.37.36:370][343]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.37.36:371][343]PIE: Server logged in
+[2023.04.27-23.37.36:372][343]PIE: Play in editor total start time 0.233 seconds.
+[2023.04.27-23.38.39:261][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.38.39:261][827]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.38.39:262][827]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.38.39:263][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.38.39:275][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.38.39:290][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.38.39:321][827]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.27-23.38.39:322][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.38.39:323][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.38.39:345][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.38.39:351][827]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2023.04.27-23.38.39:397][828]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2023.04.27-23.38.53:099][604]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.39.04:855][133]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.39.04:866][133]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.39.04:870][133]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.39.04:870][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.39.15:695][747]MapCheck: New page: Map Check
+[2023.04.27-23.39.15:723][747]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.39.15:723][747]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.39.16:004][747]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.39.16:097][747]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.39.16:097][747]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.39.16:098][747]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.39.16:134][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2023.04.27-23.39.16:184][747]LogLevel: Display: Export Material TexCoord Scales took 0.047 seconds.
+[2023.04.27-23.39.16:218][747]TextureStreamingBuild: Display: Build Texture Streaming took 0.034 seconds.
+[2023.04.27-23.39.16:249][747]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2023.04.27-23.39.16:252][747]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:39:16 PM
+[2023.04.27-23.39.16:260][747]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.39.16:269][747]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.39.16:269][747]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.39.16:271][747]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.39.16:271][747]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.39.20:827][747]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.39.20:827][747]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.39.20:827][747]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.39.20:827][747]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.39.20:828][747]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.39.20:828][747]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.39.21:005][747]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.39.21:005][747]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:39:21 PM
+[2023.04.27-23.39.21:006][747]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.674ms to complete.
+[2023.04.27-23.39.21:009][747]LogEditorBuildUtils: Build time 0:05
+[2023.04.27-23.39.21:040][747]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-23.39.21:040][747]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.04.27-23.39.21:040][747]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.04.27-23.39.21:040][747]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.04.27-23.39.21:040][747]LogShaderCompilers: Display: ================================================
+[2023.04.27-23.39.21:383][750]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2023.04.27-23.39.35:838][532]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.35:838][532]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.36:537][566]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.36:538][566]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.36:993][588]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.39.36:993][588]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.37:323][604]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.37:323][604]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.37:646][621]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.37:646][621]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.38:094][645]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.38:094][645]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.38:782][681]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.39.38:782][681]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.40:178][756]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.40:178][756]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.41:551][829]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.39.41:551][829]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.42:620][885]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.39.42:620][885]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.43:441][929]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.39.43:441][929]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.43:660][940]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.43:660][940]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.43:697][941]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.39.43:697][941]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.44:355][978]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.39.44:355][978]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.44:589][987]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.39.44:589][987]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.44:630][988]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.39.44:630][988]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.44:651][989]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.39.44:705][990]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.47:765][146]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.39.47:765][146]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.39.47:795][148]Job is a success!
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.026s
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.39.48:064][149]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.39.48:526][149]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.39.48:526][149]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.39.48:526][149]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.39.48:526][149]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.39.48:526][149]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.39.48:526][149]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.39.48:526][149]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.39.48:526][149]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.39.48:526][149]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.39.48:526][149]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.39.48:604][149]Lightmass on DESKTOP-TOA83MN: 26.0 sec total, 1.79 sec importing, 963 ms setup, 9.99 sec photons, 13.2 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:32 min total, 56.9 sec processing.
+[2023.04.27-23.39.48:619][149]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.39.48:666][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.04.27-23.39.48:703][149]LogStaticLightingSystem: Illumination: 32.4 sec (299 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.04.27-23.39.48:703][149]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.39.48:703][149]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.39.48:858][149]DumpUnbuiltLightIteractions
+[2023.04.27-23.39.48:858][149]Lights with unbuilt interactions: 0
+[2023.04.27-23.39.48:858][149]
+[2023.04.27-23.39.48:858][149]Primitives with unbuilt interactions: 0
+[2023.04.27-23.39.48:961][149]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.39.49:026][150]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.39.49:026][150]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:39:49 PM
+[2023.04.27-23.39.49:027][150]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.92ms to complete.
+[2023.04.27-23.39.51:346][257]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.39.51:359][257]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.39.52:058][296]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.39.52:069][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.39.52:069][296]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:39:52 PM)
+[2023.04.27-23.39.52:070][296]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.39.52:099][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028544s)
+[2023.04.27-23.39.52:100][296]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.39.52:100][296]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2023.04.27-23.39.52:100][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.029941s)
+[2023.04.27-23.39.52:127][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.04.27-23.39.52:129][296]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.39.52:129][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.39.52:129][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.39.52:130][296]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.39.52:130][296]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.39.52:130][296]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.39.52:130][296]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.39.52:134][296]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.39.52:134][296]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.39.52:134][296]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.39.52:134][296]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.39.52:135][296]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.39.52:135][296]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.39.52:135][296]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.39.52:135][296]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.39.52:247][296]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.39.52:248][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.39.52:248][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.39.52:248][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.39.52:248][296]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.39.52:248][296]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.39.52:248][296]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.39.52:249][296]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.39.52:250][296]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.39.52:250][296]LogInit: FAudioDevice initialized.
+[2023.04.27-23.39.52:250][296]LogAudio: Display: Audio Device (ID: 44) registered with world 'mansionCurrent'.
+[2023.04.27-23.39.52:261][296]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.39.52:269][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.39.52
+[2023.04.27-23.39.52:270][296]LogWorld: Bringing up level for play took: 0.007273
+[2023.04.27-23.39.52:270][296]LogOnline: OSS: Creating online subsystem instance for: :Context_95
+[2023.04.27-23.39.52:274][296]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.39.52:275][296]PIE: Server logged in
+[2023.04.27-23.39.52:276][296]PIE: Play in editor total start time 0.209 seconds.
+[2023.04.27-23.40.38:461][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.40.38:461][849]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.40.38:462][849]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.40.38:463][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.40.38:480][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.40.38:497][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.40.38:522][849]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.27-23.40.38:522][849]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.40.38:524][849]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.40.38:532][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.40.38:538][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.04.27-23.40.38:575][850]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2023.04.27-23.40.51:526][540]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp4)
+[2023.04.27-23.40.59:198][959]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp4)
+[2023.04.27-23.41.13:167][786]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.41.22:720][267]BlueprintLog: New page: Compile light_temp
+[2023.04.27-23.41.22:803][267]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2023.04.27-23.41.31:781][744]BlueprintLog: New page: Compile light_temp
+[2023.04.27-23.41.31:859][744]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2023.04.27-23.41.32:512][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/light_temp" FILE="../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset" SILENT=true
+[2023.04.27-23.41.32:519][766]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/light_temp6E41C11346BF6AB818A696A2CD0B207B.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset'
+[2023.04.27-23.41.32:538][766]AssetCheck: New page: Asset Save: light_temp
+[2023.04.27-23.41.32:538][766]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.41.34:175][854]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.41.34:194][854]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.41.34:197][854]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.41.34:197][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.41.41:503][269]Cmd: EDIT COPY
+[2023.04.27-23.41.42:096][301]Cmd: EDIT PASTE
+[2023.04.27-23.41.53:422][863]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp)
+[2023.04.27-23.42.02:066][285]Cmd: EDIT COPY
+[2023.04.27-23.42.02:861][326]Cmd: EDIT PASTE
+[2023.04.27-23.42.16:821][983]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp9)
+[2023.04.27-23.42.17:779][ 36]Cmd: EDIT COPY
+[2023.04.27-23.42.18:413][ 73]Cmd: EDIT PASTE
+[2023.04.27-23.42.39:584][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bertfrank_Masina_Table_Lamp)
+[2023.04.27-23.42.45:050][447]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp10)
+[2023.04.27-23.42.51:946][754]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp13)
+[2023.04.27-23.42.52:560][781]Cmd: EDIT COPY
+[2023.04.27-23.42.53:223][811]Cmd: EDIT PASTE
+[2023.04.27-23.42.57:498][991]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp13)
+[2023.04.27-23.43.03:383][225]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp20)
+[2023.04.27-23.43.06:143][333]Cmd: TRANSACTION UNDO
+[2023.04.27-23.43.06:143][333]LogEditorTransaction: Undo Move Actors
+[2023.04.27-23.43.12:746][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.43.12:787][564]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2023.04.27-23.43.12:946][564]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrentEB62CC3D49B27D9393506882DFADE002.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.43.12:955][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.43.13:115][564]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltDataF0A802594CB783BC1D60DF9C4ABE65FE.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.43.13:134][564]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.43.13:134][564]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.43.13:134][564]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.43.14:426][598]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.43.14:434][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.43.14:434][598]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:43:14 PM)
+[2023.04.27-23.43.14:434][598]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.43.14:466][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031495s)
+[2023.04.27-23.43.14:468][598]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.43.14:468][598]LogPlayLevel: PIE: World Init took: (0.002174s)
+[2023.04.27-23.43.14:468][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.033928s)
+[2023.04.27-23.43.14:500][598]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2023.04.27-23.43.14:502][598]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.43.14:502][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.43.14:502][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.43.14:503][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.43.14:503][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.43.14:503][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.43.14:503][598]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.43.14:506][598]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.43.14:506][598]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.43.14:506][598]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.43.14:507][598]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.43.14:507][598]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.43.14:507][598]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.43.14:507][598]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.43.14:507][598]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.43.14:610][598]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.43.14:610][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.43.14:610][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.43.14:610][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.43.14:610][598]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.43.14:610][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.43.14:611][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.43.14:612][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.43.14:612][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.43.14:612][598]LogInit: FAudioDevice initialized.
+[2023.04.27-23.43.14:612][598]LogAudio: Display: Audio Device (ID: 45) registered with world 'mansionCurrent'.
+[2023.04.27-23.43.14:623][598]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.43.14:630][598]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.43.14
+[2023.04.27-23.43.14:631][598]LogWorld: Bringing up level for play took: 0.006049
+[2023.04.27-23.43.14:631][598]LogOnline: OSS: Creating online subsystem instance for: :Context_97
+[2023.04.27-23.43.14:635][598]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.43.14:636][598]PIE: Server logged in
+[2023.04.27-23.43.14:636][598]PIE: Play in editor total start time 0.205 seconds.
+[2023.04.27-23.44.21:600][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.44.21:600][924]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.44.21:601][924]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.44.21:602][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.44.21:613][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.44.21:627][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.44.21:653][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.44.21:653][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.44.21:655][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.44.21:668][924]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2023.04.27-23.44.21:705][925]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2023.04.27-23.44.24:920][ 60]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.44.38:842][618]BlueprintLog: New page: Compile light_temp
+[2023.04.27-23.44.38:929][618]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2023.04.27-23.44.39:519][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/light_temp" FILE="../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset" SILENT=true
+[2023.04.27-23.44.39:526][638]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/light_temp8A0BA0F945D471FC2AE75D999FA4217C.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset'
+[2023.04.27-23.44.39:545][638]AssetCheck: New page: Asset Save: light_temp
+[2023.04.27-23.44.39:545][638]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.44.40:648][686]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.44.40:702][686]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.44.40:706][686]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.44.40:706][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.44.42:616][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.44.42:653][759]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2023.04.27-23.44.42:827][759]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent40879F2845FE3E1D51A5738DE83AC109.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.44.42:835][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.44.42:971][759]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltData2866537047F34587FEBC33B035B329AD.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.44.42:992][759]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.44.42:992][759]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.44.42:992][759]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.44.43:491][778]MapCheck: New page: Map Check
+[2023.04.27-23.44.43:545][778]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.44.43:545][778]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.44.43:796][778]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.44.43:871][778]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.44.43:871][778]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.44.43:871][778]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.44.43:905][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.04.27-23.44.43:947][778]LogLevel: Display: Export Material TexCoord Scales took 0.042 seconds.
+[2023.04.27-23.44.43:980][778]TextureStreamingBuild: Display: Build Texture Streaming took 0.033 seconds.
+[2023.04.27-23.44.44:007][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.04.27-23.44.44:010][778]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:44:44 PM
+[2023.04.27-23.44.44:016][778]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.44.44:021][778]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.44.44:021][778]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.44.44:022][778]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.44.44:022][778]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.44.48:590][778]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.44.48:591][778]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.44.48:591][778]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.44.48:591][778]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.44.48:591][778]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.44.48:591][778]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.44.48:751][778]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.44.48:752][778]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:44:48 PM
+[2023.04.27-23.44.48:753][778]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.204ms to complete.
+[2023.04.27-23.44.48:758][778]LogEditorBuildUtils: Build time 0:05
+[2023.04.27-23.44.48:800][778]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-23.44.48:800][778]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.04.27-23.44.48:800][778]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.04.27-23.44.48:800][778]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.04.27-23.44.48:800][778]LogShaderCompilers: Display: ================================================
+[2023.04.27-23.44.49:210][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2023.04.27-23.45.01:341][278]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.01:363][279]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.02:068][309]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.02:068][309]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.02:318][320]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.45.02:318][320]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.02:603][332]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.02:603][332]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.03:014][350]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.03:035][351]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.03:294][362]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.03:294][362]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.03:945][390]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.45.03:945][390]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.04:997][436]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.04:997][436]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.06:392][497]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.45.06:392][497]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.07:263][535]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.45.07:263][535]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.07:995][567]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.45.07:995][567]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.08:189][575]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.45.08:189][575]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.08:357][582]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.08:357][582]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.08:675][596]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.45.08:675][596]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.08:951][608]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.45.08:951][608]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.09:061][613]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.45.09:061][613]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.45.09:061][613]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.09:061][613]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.11:845][732]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.45.11:845][732]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.45.11:877][734]Job is a success!
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.45.12:147][735]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.45.12:537][735]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.45.12:537][735]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.45.12:537][735]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.45.12:537][735]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.45.12:537][735]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.45.12:537][735]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.45.12:537][735]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.45.12:537][735]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.45.12:537][735]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.45.12:537][735]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.45.12:612][735]Lightmass on DESKTOP-TOA83MN: 22.2 sec total, 1.59 sec importing, 798 ms setup, 8.18 sec photons, 11.6 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:21 min total, 49.3 sec processing.
+[2023.04.27-23.45.12:629][735]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.45.12:671][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2023.04.27-23.45.12:704][735]LogStaticLightingSystem: Illumination: 28.6 sec (248 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.04.27-23.45.12:704][735]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.45.12:704][735]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.45.17:623][735]DumpUnbuiltLightIteractions
+[2023.04.27-23.45.17:623][735]Lights with unbuilt interactions: 0
+[2023.04.27-23.45.17:623][735]
+[2023.04.27-23.45.17:624][735]Primitives with unbuilt interactions: 0
+[2023.04.27-23.45.17:724][735]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.45.17:784][736]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.45.17:785][736]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:45:17 PM
+[2023.04.27-23.45.17:786][736]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.102ms to complete.
+[2023.04.27-23.46.00:567][662]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.46.00:615][662]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.46.01:660][710]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.46.01:667][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.46.01:667][710]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:46:01 PM)
+[2023.04.27-23.46.01:668][710]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.46.01:699][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031094s)
+[2023.04.27-23.46.01:700][710]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.46.01:700][710]LogPlayLevel: PIE: World Init took: (0.001611s)
+[2023.04.27-23.46.01:701][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.033028s)
+[2023.04.27-23.46.01:730][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.04.27-23.46.01:736][710]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.46.01:736][710]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.46.01:736][710]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.46.01:737][710]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.46.01:737][710]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.46.01:737][710]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.46.01:737][710]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.46.01:741][710]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.46.01:841][710]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.46.01:841][710]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.46.01:841][710]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.46.01:841][710]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.46.01:842][710]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.46.01:842][710]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.46.01:842][710]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.46.01:843][710]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.46.01:843][710]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.46.01:844][710]LogInit: FAudioDevice initialized.
+[2023.04.27-23.46.01:844][710]LogAudio: Display: Audio Device (ID: 46) registered with world 'mansionCurrent'.
+[2023.04.27-23.46.01:854][710]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.46.01:861][710]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.46.01
+[2023.04.27-23.46.01:862][710]LogWorld: Bringing up level for play took: 0.006821
+[2023.04.27-23.46.01:862][710]LogOnline: OSS: Creating online subsystem instance for: :Context_99
+[2023.04.27-23.46.01:866][710]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.46.01:867][710]PIE: Server logged in
+[2023.04.27-23.46.01:868][710]PIE: Play in editor total start time 0.202 seconds.
+[2023.04.27-23.47.05:381][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.47.05:381][941]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.47.05:381][941]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.47.05:382][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.47.05:395][941]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.47.05:408][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.47.05:434][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.47.05:434][941]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.47.05:435][941]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.47.05:450][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.04.27-23.47.05:486][942]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2023.04.27-23.47.14:714][414]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp10)
+[2023.04.27-23.47.17:311][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.47.30:833][ 35]BlueprintLog: New page: Compile light_temp
+[2023.04.27-23.47.30:926][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2023.04.27-23.47.32:857][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/light_temp" FILE="../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset" SILENT=true
+[2023.04.27-23.47.32:864][112]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/light_tempDB3A9F8E4D137DADE056C9B67B35697D.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Blueprints/light_temp.uasset'
+[2023.04.27-23.47.32:882][112]AssetCheck: New page: Asset Save: light_temp
+[2023.04.27-23.47.32:883][112]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-23.47.34:689][191]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.47.34:733][191]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-23.47.34:738][191]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.47.34:738][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.47.36:113][241]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.47.36:121][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.47.36:121][241]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:47:36 PM)
+[2023.04.27-23.47.36:122][241]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.47.36:157][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035394s)
+[2023.04.27-23.47.36:158][241]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.47.36:159][241]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2023.04.27-23.47.36:159][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.037032s)
+[2023.04.27-23.47.36:193][241]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2023.04.27-23.47.36:195][241]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.47.36:195][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.47.36:196][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.47.36:196][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.47.36:196][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.47.36:196][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.47.36:196][241]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.47.36:201][241]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.47.36:315][241]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.47.36:315][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.47.36:315][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.47.36:315][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.47.36:316][241]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.47.36:316][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.47.36:316][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.47.36:317][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.47.36:317][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.47.36:317][241]LogInit: FAudioDevice initialized.
+[2023.04.27-23.47.36:318][241]LogAudio: Display: Audio Device (ID: 47) registered with world 'mansionCurrent'.
+[2023.04.27-23.47.36:326][241]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.47.36:333][241]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.47.36
+[2023.04.27-23.47.36:334][241]LogWorld: Bringing up level for play took: 0.006212
+[2023.04.27-23.47.36:334][241]LogOnline: OSS: Creating online subsystem instance for: :Context_101
+[2023.04.27-23.47.36:338][241]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.47.36:339][241]PIE: Server logged in
+[2023.04.27-23.47.36:340][241]PIE: Play in editor total start time 0.22 seconds.
+[2023.04.27-23.48.36:200][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.48.36:200][253]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.48.36:201][253]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.48.36:202][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.48.36:223][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.48.36:234][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.48.36:260][253]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.27-23.48.36:260][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.48.36:262][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.48.36:271][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.48.36:276][253]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.04.27-23.48.36:314][254]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2023.04.27-23.48.39:788][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.48.39:821][391]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2023.04.27-23.48.39:966][391]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrentEE31077D43C73E68147E488D451DBA93.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.48.39:974][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.48.40:130][391]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltDataF36B4EA74849FF332CBDA783E9C3AC82.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.48.40:152][391]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.48.40:152][391]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.48.40:152][391]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.48.40:766][409]MapCheck: New page: Map Check
+[2023.04.27-23.48.40:848][409]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.48.40:848][409]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.48.41:095][409]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.48.41:167][409]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.48.41:167][409]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.48.41:167][409]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.48.41:199][409]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.04.27-23.48.41:243][409]LogLevel: Display: Export Material TexCoord Scales took 0.044 seconds.
+[2023.04.27-23.48.41:276][409]TextureStreamingBuild: Display: Build Texture Streaming took 0.032 seconds.
+[2023.04.27-23.48.41:302][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.04.27-23.48.41:304][409]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:48:41 PM
+[2023.04.27-23.48.41:311][409]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.48.41:314][409]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.48.41:315][409]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.48.41:315][409]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.48.41:315][409]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.48.45:916][409]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.48.45:916][409]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.48.45:916][409]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.48.45:916][409]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.48.45:917][409]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.48.45:917][409]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.48.46:081][409]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.48.46:081][409]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:48:46 PM
+[2023.04.27-23.48.46:081][409]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.682ms to complete.
+[2023.04.27-23.48.46:084][409]LogEditorBuildUtils: Build time 0:05
+[2023.04.27-23.48.46:117][409]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-23.48.46:117][409]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.04.27-23.48.46:117][409]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.04.27-23.48.46:117][409]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.04.27-23.48.46:117][409]LogShaderCompilers: Display: ================================================
+[2023.04.27-23.48.46:314][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2023.04.27-23.48.59:221][942]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.48.59:221][942]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.48.59:898][971]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.48.59:898][971]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.00:235][984]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.49.00:235][984]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.00:452][992]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.49.00:452][992]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.00:917][ 13]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.49.00:917][ 13]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.01:185][ 24]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.49.01:185][ 24]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.01:760][ 49]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.49.01:760][ 49]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.02:833][ 95]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.49.02:833][ 95]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.04:143][151]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.49.04:143][151]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.05:078][191]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.49.05:078][191]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.05:821][223]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.49.05:821][223]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.05:893][226]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.49.05:893][226]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.06:077][234]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.49.06:077][234]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.06:478][251]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.49.06:478][251]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.06:716][261]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.49.06:716][261]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.06:785][264]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.49.06:785][264]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.06:806][265]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.49.06:806][265]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.09:575][382]Job is a success!
+[2023.04.27-23.49.09:608][382]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.49.09:608][382]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.028s
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.49.09:823][383]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.49.10:217][383]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.49.10:217][383]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.49.10:217][383]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.49.10:217][383]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.49.10:217][383]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.49.10:218][383]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.49.10:218][383]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.49.10:218][383]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.49.10:218][383]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.49.10:218][383]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.49.10:298][383]Lightmass on DESKTOP-TOA83MN: 22.7 sec total, 2.04 sec importing, 765 ms setup, 8.51 sec photons, 11.4 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:19 min total, 48.7 sec processing.
+[2023.04.27-23.49.10:316][383]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.49.10:360][383]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.04.27-23.49.10:394][383]LogStaticLightingSystem: Illumination: 29.0 sec (247 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.04.27-23.49.10:394][383]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.49.10:394][383]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.49.15:952][383]DumpUnbuiltLightIteractions
+[2023.04.27-23.49.15:952][383]Lights with unbuilt interactions: 0
+[2023.04.27-23.49.15:952][383]
+[2023.04.27-23.49.15:952][383]Primitives with unbuilt interactions: 0
+[2023.04.27-23.49.16:044][383]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.49.16:102][384]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.49.16:103][384]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:49:16 PM
+[2023.04.27-23.49.16:103][384]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.695ms to complete.
+[2023.04.27-23.49.22:042][638]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.49.22:090][638]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.49.25:512][793]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.49.25:519][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.49.25:519][793]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:49:25 PM)
+[2023.04.27-23.49.25:519][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.49.25:554][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034329s)
+[2023.04.27-23.49.25:556][793]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.49.25:556][793]LogPlayLevel: PIE: World Init took: (0.002718s)
+[2023.04.27-23.49.25:557][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.037319s)
+[2023.04.27-23.49.25:585][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2023.04.27-23.49.25:588][793]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.49.25:588][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.49.25:588][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.49.25:588][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.49.25:589][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.49.25:589][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.49.25:589][793]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.49.25:593][793]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.49.25:694][793]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.49.25:695][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.49.25:695][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.49.25:695][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.49.25:695][793]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.49.25:695][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.49.25:695][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.49.25:696][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.49.25:696][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.49.25:696][793]LogInit: FAudioDevice initialized.
+[2023.04.27-23.49.25:696][793]LogAudio: Display: Audio Device (ID: 48) registered with world 'mansionCurrent'.
+[2023.04.27-23.49.25:704][793]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.49.25:711][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.49.25
+[2023.04.27-23.49.25:712][793]LogWorld: Bringing up level for play took: 0.005964
+[2023.04.27-23.49.25:712][793]LogOnline: OSS: Creating online subsystem instance for: :Context_102
+[2023.04.27-23.49.25:716][793]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.49.25:717][793]PIE: Server logged in
+[2023.04.27-23.49.25:718][793]PIE: Play in editor total start time 0.201 seconds.
+[2023.04.27-23.51.16:930][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.51.16:930][641]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.51.16:930][641]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.51.16:931][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.51.16:942][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.51.16:956][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.51.16:981][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.51.16:981][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.51.16:983][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.51.16:997][641]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2023.04.27-23.51.17:034][642]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2023.04.27-23.51.24:444][ 34]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp12)
+[2023.04.27-23.51.28:125][252]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.04.27-23.51.46:650][328]Cmd: EDIT COPY
+[2023.04.27-23.51.47:346][369]Cmd: EDIT PASTE
+[2023.04.27-23.52.04:913][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.52.04:949][402]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2023.04.27-23.52.05:058][402]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrentC8B1FB8F4C25AB1E9479529AF952B434.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.52.05:067][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.52.05:223][402]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltData48AD738C4704A39DCD9BBD8C03D2C07C.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.52.05:249][402]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.52.05:249][402]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.52.05:249][402]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.52.06:613][474]MapCheck: New page: Map Check
+[2023.04.27-23.52.06:633][474]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.52.06:633][474]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.52.06:882][474]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.52.06:951][474]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.52.06:952][474]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.52.06:952][474]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.52.06:983][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2023.04.27-23.52.07:023][474]LogLevel: Display: Export Material TexCoord Scales took 0.039 seconds.
+[2023.04.27-23.52.07:055][474]TextureStreamingBuild: Display: Build Texture Streaming took 0.032 seconds.
+[2023.04.27-23.52.07:080][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.04.27-23.52.07:083][474]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:52:07 PM
+[2023.04.27-23.52.07:089][474]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.52.07:093][474]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.52.07:093][474]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.52.07:094][474]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.52.07:094][474]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.52.11:689][474]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.52.11:689][474]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.52.11:689][474]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.52.11:689][474]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.52.11:689][474]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.52.11:689][474]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.52.11:853][474]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.52.11:853][474]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:52:11 PM
+[2023.04.27-23.52.11:854][474]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.718ms to complete.
+[2023.04.27-23.52.11:857][474]LogEditorBuildUtils: Build time 0:05
+[2023.04.27-23.52.11:886][474]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.27-23.52.11:886][474]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.04.27-23.52.11:886][474]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.04.27-23.52.11:886][474]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.04.27-23.52.11:886][474]LogShaderCompilers: Display: ================================================
+[2023.04.27-23.52.12:093][476]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.04.27-23.52.24:643][178]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.24:643][178]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.25:394][219]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.25:394][219]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.25:674][233]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.52.25:674][233]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.25:798][238]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.25:798][238]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.26:104][254]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.26:104][254]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.26:700][288]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.26:700][288]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.27:140][311]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.52.27:140][311]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.28:267][372]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.28:267][372]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.29:612][447]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.52.29:612][447]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.30:455][493]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.52.30:455][493]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.31:276][536]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.52.31:276][536]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.31:691][556]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.52.31:691][556]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.31:809][560]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.31:809][560]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.32:201][582]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.52.32:201][582]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.32:437][593]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.52.32:437][593]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.32:511][597]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.52.32:511][597]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.32:532][598]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.52.32:532][598]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.35:392][755]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.52.35:392][755]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.52.35:400][756]Job is a success!
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.52.35:594][757]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.52.36:006][757]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.52.36:006][757]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.52.36:006][757]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.52.36:006][757]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.52.36:007][757]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.52.36:007][757]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.52.36:007][757]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.52.36:007][757]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.52.36:007][757]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.52.36:007][757]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.52.36:078][757]Lightmass on DESKTOP-TOA83MN: 22.5 sec total, 1.57 sec importing, 804 ms setup, 8.37 sec photons, 11.8 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:22 min total, 51.1 sec processing.
+[2023.04.27-23.52.36:097][757]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.52.36:148][757]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2023.04.27-23.52.36:199][757]LogStaticLightingSystem: Illumination: 29.0 sec (248 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.04.27-23.52.36:199][757]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.52.36:199][757]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.52.36:715][757]DumpUnbuiltLightIteractions
+[2023.04.27-23.52.36:715][757]Lights with unbuilt interactions: 0
+[2023.04.27-23.52.36:715][757]
+[2023.04.27-23.52.36:715][757]Primitives with unbuilt interactions: 0
+[2023.04.27-23.52.36:813][757]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.52.36:873][758]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.52.36:873][758]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:52:36 PM
+[2023.04.27-23.52.36:874][758]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.736ms to complete.
+[2023.04.27-23.52.41:318][  6]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.52.41:326][  6]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.52.42:096][ 47]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-23.52.42:103][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-23.52.42:103][ 47]PIE: New page: PIE session: mansionCurrent (Apr 27, 2023, 3:52:42 PM)
+[2023.04.27-23.52.42:104][ 47]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.52.42:132][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029546s)
+[2023.04.27-23.52.42:133][ 47]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-23.52.42:134][ 47]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2023.04.27-23.52.42:134][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.031096s)
+[2023.04.27-23.52.42:164][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2023.04.27-23.52.42:166][ 47]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2023.04.27-23.52.42:166][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-23.52.42:166][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-23.52.42:166][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-23.52.42:166][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-23.52.42:167][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-23.52.42:167][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-23.52.42:167][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-23.52.42:167][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-23.52.42:167][ 47]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-23.52.42:167][ 47]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-23.52.42:167][ 47]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-23.52.42:167][ 47]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-23.52.42:172][ 47]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-23.52.42:272][ 47]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-23.52.42:273][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-23.52.42:273][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-23.52.42:273][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-23.52.42:273][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-23.52.42:273][ 47]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-23.52.42:273][ 47]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-23.52.42:275][ 47]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-23.52.42:275][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-23.52.42:275][ 47]LogInit: FAudioDevice initialized.
+[2023.04.27-23.52.42:275][ 47]LogAudio: Display: Audio Device (ID: 49) registered with world 'mansionCurrent'.
+[2023.04.27-23.52.42:288][ 47]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-23.52.42:296][ 47]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 60) at 2023.04.27-19.52.42
+[2023.04.27-23.52.42:296][ 47]LogWorld: Bringing up level for play took: 0.006092
+[2023.04.27-23.52.42:296][ 47]LogOnline: OSS: Creating online subsystem instance for: :Context_103
+[2023.04.27-23.52.42:300][ 47]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-23.52.42:301][ 47]PIE: Server logged in
+[2023.04.27-23.52.42:302][ 47]PIE: Play in editor total start time 0.201 seconds.
+[2023.04.27-23.53.14:000][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.53.14:000][684]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-23.53.14:000][684]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-23.53.14:001][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.53.14:009][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-23.53.14:022][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-23.53.14:048][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-23.53.14:049][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.53.14:050][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-23.53.14:063][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2023.04.27-23.53.14:101][685]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2023.04.27-23.53.15:561][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.53.15:588][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2023.04.27-23.53.15:720][759]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent1569FD864C691111A7E1A39F60822CC0.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.53.15:728][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.53.15:874][759]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltData498B3F2C41F17D29D0C8018732E9949A.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.53.15:900][759]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.53.15:900][759]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.53.15:900][759]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-23.53.23:712][221]MapCheck: New page: Map Check
+[2023.04.27-23.53.23:734][221]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.27-23.53.23:734][221]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.27-23.53.23:977][221]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=false
+[2023.04.27-23.53.24:049][221]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2023.04.27-23.53.24:049][221]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2023.04.27-23.53.24:049][221]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2023.04.27-23.53.24:080][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.04.27-23.53.24:125][221]LogLevel: Display: Export Material TexCoord Scales took 0.043 seconds.
+[2023.04.27-23.53.24:156][221]TextureStreamingBuild: Display: Build Texture Streaming took 0.031 seconds.
+[2023.04.27-23.53.24:182][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.04.27-23.53.24:185][221]LightingResults: New page: Lighting Build - Apr 27, 2023, 3:53:24 PM
+[2023.04.27-23.53.24:190][221]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.27-23.53.24:195][221]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.27-23.53.24:195][221]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.27-23.53.24:195][221]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.27-23.53.24:195][221]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11484
+[2023.04.27-23.53.28:798][221]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.27-23.53.28:798][221]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.27-23.53.28:798][221]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.27-23.53.28:798][221]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.27-23.53.28:798][221]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.27-23.53.28:798][221]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.27-23.53.28:977][221]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2023.04.27-23.53.28:977][221]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:53:28 PM
+[2023.04.27-23.53.28:978][221]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.051ms to complete.
+[2023.04.27-23.53.28:982][221]LogEditorBuildUtils: Build time 0:05
+[2023.04.27-23.53.29:380][223]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2023.04.27-23.53.42:698][482]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.42:698][482]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.43:370][484]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.43:370][484]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.43:370][484]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.53.43:370][484]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.43:714][485]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.43:714][485]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.44:050][486]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.44:050][486]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.44:370][487]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.44:370][487]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.44:706][503]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.53.44:706][503]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.45:763][560]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.45:763][560]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.46:994][630]LightingResults: Warning: Kaldewei_Conoduo_Bathtub Object has overlapping UVs.
+[2023.04.27-23.53.46:994][630]LightingResults: Kaldewei_Conoduo_Bathtub Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.47:900][680]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.53.47:900][680]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.48:671][722]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.53.48:671][722]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.48:812][727]LightingResults: Warning: B_Cabinet_0_020 Object has overlapping UVs.
+[2023.04.27-23.53.48:812][727]LightingResults: B_Cabinet_0_020 Lightmap UV are overlapping by 1.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.48:940][734]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.48:940][734]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.49:303][754]LightingResults: Warning: uploads_files_225816_Sideboard Object has overlapping UVs.
+[2023.04.27-23.53.49:303][754]LightingResults: uploads_files_225816_Sideboard Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.49:585][768]LightingResults: Warning: fkc Object has overlapping UVs.
+[2023.04.27-23.53.49:606][769]LightingResults: fkc Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.49:655][770]LightingResults: Warning: cgaxis_free_05_toilet Object has overlapping UVs.
+[2023.04.27-23.53.49:655][770]LightingResults: cgaxis_free_05_toilet Lightmap UV are overlapping by 61.0%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.49:688][771]LightingResults: Warning: Bertfrank_Masina_Table_Lamp Object has overlapping UVs.
+[2023.04.27-23.53.49:688][771]LightingResults: Bertfrank_Masina_Table_Lamp Lightmap UV are overlapping by 8.1%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.52:388][922]LightingResults: Warning: uploads_files_2196153_053+-+Bathroom+Shower Object has overlapping UVs.
+[2023.04.27-23.53.52:388][922]LightingResults: uploads_files_2196153_053+-+Bathroom+Shower Lightmap UV are overlapping by 15.8%. Please adjust content - Enable Error Coloring to visualize.
+[2023.04.27-23.53.52:394][923]Job is a success!
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.021s
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:      Bricks at depth
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:          1: 4.4% covering 9.4% of volume
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:          2: 94.9% covering 3.1% of volume
+[2023.04.27-23.53.52:621][924]LogVolumetricLightmapImport:      Bricks in each level
+[2023.04.27-23.53.52:622][924]LogVolumetricLightmapImport:          mansionCurrent 			 136 bricks 	 100.0% (Persistent Level)
+[2023.04.27-23.53.53:005][924]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.53.53:005][924]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.53.53:005][924]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.53.53:005][924]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.53.53:005][924]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2023.04.27-23.53.53:005][924]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2023.04.27-23.53.53:005][924]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2023.04.27-23.53.53:005][924]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2023.04.27-23.53.53:005][924]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2023.04.27-23.53.53:005][924]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.04.27-23.53.53:085][924]Lightmass on DESKTOP-TOA83MN: 22.3 sec total, 1.49 sec importing, 775 ms setup, 9.30 sec photons, 10.7 sec processing, 0 ms extra exporting [316/316 mappings]. Threads: 1:15 min total, 46.3 sec processing.
+[2023.04.27-23.53.53:102][924]LogStaticLightingSystem: mansionCurrent_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2023.04.27-23.53.53:160][924]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2023.04.27-23.53.53:196][924]LogStaticLightingSystem: Illumination: 28.9 sec (248 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.04.27-23.53.53:196][924]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2023.04.27-23.53.53:196][924]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.04.27-23.53.57:829][924]DumpUnbuiltLightIteractions
+[2023.04.27-23.53.57:829][924]Lights with unbuilt interactions: 0
+[2023.04.27-23.53.57:829][924]
+[2023.04.27-23.53.57:829][924]Primitives with unbuilt interactions: 0
+[2023.04.27-23.53.57:927][924]LogTexture: Display: Building textures: NewReflectionComponentTextureB5ED8C6B44C9E0AFEB31979D5DEFE4E9 (BGRA8, 128X128)
+[2023.04.27-23.53.57:982][925]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.27-23.53.57:983][925]MapCheck: New page: mansionCurrent - Apr 27, 2023, 3:53:57 PM
+[2023.04.27-23.53.57:984][925]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.898ms to complete.
+[2023.04.27-23.53.59:829][ 34]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.53.59:837][ 34]LogSlate: Window 'Message Log' being destroyed
+[2023.04.27-23.54.03:357][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-23.54.03:389][242]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2023.04.27-23.54.03:511][242]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent574D650D4E80EB508E6329AC4B43C485.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-23.54.03:519][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-23.54.03:658][242]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltDataFAD2387B429D07D3D0915D91E6DB126C.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-23.54.03:682][242]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-23.54.03:682][242]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-23.54.03:682][242]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
