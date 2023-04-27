@@ -2408,3 +2408,406 @@ Sky Sphere
 [2023.04.26-23.56.15:740][890]AssetCheck: New page: Asset Save: multiple assets
 [2023.04.26-23.56.15:740][890]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
 [2023.04.26-23.56.15:740][890]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-00.00.06:859][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-00.00.06:901][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2023.04.27-00.00.07:123][727]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent6A52020241844E94923C2DA7A0284F21.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-00.00.07:130][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-00.00.07:255][727]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltData726A18464EFE8BFB085590BF36559D89.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-00.00.07:273][727]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-00.00.07:273][727]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-00.00.07:273][727]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-00.00.08:840][777]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-00.00.08:848][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-00.00.08:848][777]PIE: New page: PIE session: mansionCurrent (Apr 26, 2023, 4:00:08 PM)
+[2023.04.27-00.00.08:848][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.00.08:879][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030302s)
+[2023.04.27-00.00.08:880][777]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-00.00.08:880][777]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2023.04.27-00.00.08:880][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.031789s)
+[2023.04.27-00.00.08:911][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2023.04.27-00.00.08:912][777]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-00.00.08:912][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-00.00.08:912][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-00.00.08:912][777]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-00.00.08:912][777]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-00.00.08:912][777]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-00.00.08:913][777]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-00.00.08:917][777]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-00.00.09:040][777]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-00.00.09:040][777]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-00.00.09:040][777]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-00.00.09:040][777]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-00.00.09:041][777]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-00.00.09:041][777]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-00.00.09:041][777]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-00.00.09:042][777]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-00.00.09:042][777]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-00.00.09:042][777]LogInit: FAudioDevice initialized.
+[2023.04.27-00.00.09:042][777]LogAudio: Display: Audio Device (ID: 19) registered with world 'mansionCurrent'.
+[2023.04.27-00.00.09:054][777]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-00.00.09:061][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 0) at 2023.04.26-20.00.09
+[2023.04.27-00.00.09:062][777]LogWorld: Bringing up level for play took: 0.006376
+[2023.04.27-00.00.09:062][777]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2023.04.27-00.00.09:067][777]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-00.00.09:068][777]PIE: Server logged in
+[2023.04.27-00.00.09:069][777]PIE: Play in editor total start time 0.223 seconds.
+[2023.04.27-00.01.27:037][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.01.27:037][171]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.01.27:038][171]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.01.27:039][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.01.27:054][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-00.01.27:065][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.01.27:090][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.01.27:090][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.01.27:091][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.01.27:103][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.04.27-00.01.27:142][172]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.04.27-00.01.57:739][652]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-00.01.57:747][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-00.01.57:747][652]PIE: New page: PIE session: mansionCurrent (Apr 26, 2023, 4:01:57 PM)
+[2023.04.27-00.01.57:747][652]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.01.57:775][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028850s)
+[2023.04.27-00.01.57:776][652]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-00.01.57:777][652]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2023.04.27-00.01.57:777][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.030355s)
+[2023.04.27-00.01.57:804][652]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.04.27-00.01.57:808][652]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-00.01.57:808][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-00.01.57:808][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-00.01.57:809][652]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-00.01.57:809][652]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-00.01.57:809][652]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-00.01.57:809][652]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-00.01.57:814][652]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-00.01.57:921][652]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-00.01.57:922][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-00.01.57:922][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-00.01.57:922][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-00.01.57:922][652]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-00.01.57:922][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-00.01.57:922][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-00.01.57:924][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-00.01.57:924][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-00.01.57:924][652]LogInit: FAudioDevice initialized.
+[2023.04.27-00.01.57:924][652]LogAudio: Display: Audio Device (ID: 20) registered with world 'mansionCurrent'.
+[2023.04.27-00.01.57:937][652]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-00.01.57:943][652]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 0) at 2023.04.26-20.01.57
+[2023.04.27-00.01.57:943][652]LogWorld: Bringing up level for play took: 0.005438
+[2023.04.27-00.01.57:944][652]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2023.04.27-00.01.57:948][652]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-00.01.57:949][652]PIE: Server logged in
+[2023.04.27-00.01.57:949][652]PIE: Play in editor total start time 0.205 seconds.
+[2023.04.27-00.02.10:257][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.02.10:257][336]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.02.10:257][336]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.02.10:259][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.02.10:273][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-00.02.10:289][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.02.10:314][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.02.10:314][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.02.10:316][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.02.10:327][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2023.04.27-00.02.10:363][337]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.04.27-00.02.15:826][571]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-00.02.15:832][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-00.02.15:832][571]PIE: New page: PIE session: mansionCurrent (Apr 26, 2023, 4:02:15 PM)
+[2023.04.27-00.02.15:833][571]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.02.15:860][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026857s)
+[2023.04.27-00.02.15:861][571]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-00.02.15:862][571]LogPlayLevel: PIE: World Init took: (0.001471s)
+[2023.04.27-00.02.15:862][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.028602s)
+[2023.04.27-00.02.15:890][571]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2023.04.27-00.02.15:891][571]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-00.02.15:891][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-00.02.15:891][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-00.02.15:892][571]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-00.02.15:892][571]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-00.02.15:892][571]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-00.02.15:892][571]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-00.02.15:896][571]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-00.02.16:002][571]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-00.02.16:003][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-00.02.16:003][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-00.02.16:003][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-00.02.16:003][571]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-00.02.16:003][571]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-00.02.16:003][571]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-00.02.16:005][571]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-00.02.16:005][571]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-00.02.16:005][571]LogInit: FAudioDevice initialized.
+[2023.04.27-00.02.16:005][571]LogAudio: Display: Audio Device (ID: 21) registered with world 'mansionCurrent'.
+[2023.04.27-00.02.16:016][571]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-00.02.16:023][571]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 0) at 2023.04.26-20.02.16
+[2023.04.27-00.02.16:024][571]LogWorld: Bringing up level for play took: 0.006015
+[2023.04.27-00.02.16:024][571]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2023.04.27-00.02.16:028][571]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-00.02.16:029][571]PIE: Server logged in
+[2023.04.27-00.02.16:029][571]PIE: Play in editor total start time 0.199 seconds.
+[2023.04.27-00.02.28:109][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.02.28:109][244]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.02.28:109][244]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.02.28:111][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.02.28:123][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-00.02.28:140][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.02.28:166][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.02.28:166][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.02.28:167][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.02.28:180][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.04.27-00.02.28:216][245]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.04.27-00.02.45:995][154]LogSlate: Window 'Open Level' being destroyed
+[2023.04.27-00.02.55:954][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-00.02.55:981][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.04.27-00.02.56:068][657]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent5627B2BA446408FE11B51A897629D70C.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-00.02.56:075][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-00.02.56:182][657]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltDataA28401E74DE43E64C02F239FDDA4B61D.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-00.02.56:208][657]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-00.02.56:209][657]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-00.02.56:209][657]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-00.03.01:105][906]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-00.03.01:113][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-00.03.01:113][906]PIE: New page: PIE session: mansionCurrent (Apr 26, 2023, 4:03:01 PM)
+[2023.04.27-00.03.01:113][906]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.03.01:144][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030826s)
+[2023.04.27-00.03.01:145][906]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-00.03.01:145][906]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2023.04.27-00.03.01:145][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.032118s)
+[2023.04.27-00.03.01:174][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.04.27-00.03.01:175][906]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-00.03.01:175][906]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-00.03.01:175][906]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-00.03.01:176][906]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-00.03.01:176][906]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-00.03.01:176][906]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-00.03.01:176][906]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-00.03.01:180][906]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-00.03.01:289][906]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-00.03.01:289][906]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-00.03.01:290][906]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-00.03.01:290][906]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-00.03.01:290][906]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-00.03.01:290][906]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-00.03.01:290][906]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-00.03.01:292][906]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-00.03.01:292][906]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-00.03.01:292][906]LogInit: FAudioDevice initialized.
+[2023.04.27-00.03.01:292][906]LogAudio: Display: Audio Device (ID: 22) registered with world 'mansionCurrent'.
+[2023.04.27-00.03.01:304][906]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-00.03.01:311][906]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 0) at 2023.04.26-20.03.01
+[2023.04.27-00.03.01:312][906]LogWorld: Bringing up level for play took: 0.005975
+[2023.04.27-00.03.01:312][906]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2023.04.27-00.03.01:316][906]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-00.03.01:317][906]PIE: Server logged in
+[2023.04.27-00.03.01:318][906]PIE: Play in editor total start time 0.207 seconds.
+[2023.04.27-00.03.30:156][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.03.30:157][662]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.03.30:157][662]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.03.30:158][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.03.30:172][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-00.03.30:189][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.03.30:213][662]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.27-00.03.30:213][662]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.03.30:215][662]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.03.30:221][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.03.30:227][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2023.04.27-00.03.30:265][663]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.04.27-00.03.31:320][752]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp12)
+[2023.04.27-00.03.32:806][871]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/light_temp.light_temp
+[2023.04.27-00.03.42:181][382]BlueprintLog: New page: Compile light_temp
+[2023.04.27-00.03.42:257][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.04.27-00.03.43:679][453]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-00.03.43:691][453]LogSlate: Window 'light_temp' being destroyed
+[2023.04.27-00.03.43:694][453]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.03.43:694][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.03.45:090][569]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-00.03.45:100][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-00.03.45:100][569]PIE: New page: PIE session: mansionCurrent (Apr 26, 2023, 4:03:45 PM)
+[2023.04.27-00.03.45:124][569]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.03.45:149][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025390s)
+[2023.04.27-00.03.45:150][569]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-00.03.45:151][569]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2023.04.27-00.03.45:151][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.026781s)
+[2023.04.27-00.03.45:182][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2023.04.27-00.03.45:183][569]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-00.03.45:183][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-00.03.45:183][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-00.03.45:184][569]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-00.03.45:184][569]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-00.03.45:184][569]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-00.03.45:184][569]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-00.03.45:188][569]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-00.03.45:293][569]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-00.03.45:294][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-00.03.45:294][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-00.03.45:294][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-00.03.45:294][569]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-00.03.45:294][569]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-00.03.45:294][569]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-00.03.45:296][569]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-00.03.45:296][569]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-00.03.45:296][569]LogInit: FAudioDevice initialized.
+[2023.04.27-00.03.45:296][569]LogAudio: Display: Audio Device (ID: 23) registered with world 'mansionCurrent'.
+[2023.04.27-00.03.45:310][569]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-00.03.45:316][569]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 0) at 2023.04.26-20.03.45
+[2023.04.27-00.03.45:317][569]LogWorld: Bringing up level for play took: 0.005699
+[2023.04.27-00.03.45:317][569]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2023.04.27-00.03.45:322][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-00.03.45:323][569]PIE: Server logged in
+[2023.04.27-00.03.45:324][569]PIE: Play in editor total start time 0.225 seconds.
+[2023.04.27-00.04.10:457][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.04.10:457][142]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.04.10:457][142]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.04.10:458][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.04.10:469][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-00.04.10:481][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.04.10:506][142]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.27-00.04.10:506][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.04.10:508][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.04.10:514][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.04.10:519][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2023.04.27-00.04.10:562][143]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.04.27-00.04.12:212][231]LogEditorViewport: Clicking on Actor (LMB): light_temp_C (light_temp8)
+[2023.04.27-00.04.13:140][291]Cmd: DELETE
+[2023.04.27-00.04.13:140][291]Cmd: ACTOR DELETE
+[2023.04.27-00.04.13:154][291]LogEditorActor: Deleted Actor: light_temp_C
+[2023.04.27-00.04.13:184][291]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2023.04.27-00.04.13:185][291]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2023.04.27-00.04.15:323][440]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.27-00.04.15:330][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.27-00.04.15:330][440]PIE: New page: PIE session: mansionCurrent (Apr 26, 2023, 4:04:15 PM)
+[2023.04.27-00.04.15:353][440]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.04.15:379][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025704s)
+[2023.04.27-00.04.15:380][440]LogAIModule: Creating AISystem for world mansionCurrent
+[2023.04.27-00.04.15:380][440]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2023.04.27-00.04.15:381][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mansionCurrent.mansionCurrent to /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent (0.027220s)
+[2023.04.27-00.04.15:406][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.04.27-00.04.15:407][440]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.27-00.04.15:407][440]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.27-00.04.15:407][440]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.27-00.04.15:408][440]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.27-00.04.15:408][440]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.27-00.04.15:408][440]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.27-00.04.15:408][440]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 1: FrontRight
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 2: FrontCenter
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 3: LowFrequency
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 4: BackLeft
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 5: BackRight
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 6: SideLeft
+[2023.04.27-00.04.15:411][440]LogAudioMixer: Display: 7: SideRight
+[2023.04.27-00.04.15:517][440]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2023.04.27-00.04.15:518][440]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.27-00.04.15:518][440]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.27-00.04.15:518][440]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.27-00.04.15:518][440]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.27-00.04.15:518][440]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.04.27-00.04.15:518][440]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.04.27-00.04.15:520][440]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.04.27-00.04.15:520][440]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.04.27-00.04.15:520][440]LogInit: FAudioDevice initialized.
+[2023.04.27-00.04.15:520][440]LogAudio: Display: Audio Device (ID: 24) registered with world 'mansionCurrent'.
+[2023.04.27-00.04.15:530][440]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2023.04.27-00.04.15:537][440]LogWorld: Bringing World /Game/Levels/UEDPIE_0_mansionCurrent.mansionCurrent up for play (max tick rate 0) at 2023.04.26-20.04.15
+[2023.04.27-00.04.15:538][440]LogWorld: Bringing up level for play took: 0.006203
+[2023.04.27-00.04.15:538][440]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2023.04.27-00.04.15:542][440]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.04.27-00.04.15:543][440]PIE: Server logged in
+[2023.04.27-00.04.15:544][440]PIE: Play in editor total start time 0.217 seconds.
+[2023.04.27-00.04.36:598][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.04.36:598][696]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_mansionCurrent
+[2023.04.27-00.04.36:598][696]LogWorld: UWorld::CleanupWorld for mansionCurrent, bSessionEnded=true, bCleanupResources=true
+[2023.04.27-00.04.36:599][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.04.36:613][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.27-00.04.36:618][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.27-00.04.36:642][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.27-00.04.36:642][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.04.36:644][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.04.27-00.04.36:655][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2023.04.27-00.04.36:679][697]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.04.27-00.04.38:523][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-00.04.38:549][798]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.04.27-00.04.38:635][798]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent2EA53A8B470AEAA30494F0AC28E3F915.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-00.04.38:643][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-00.04.38:743][798]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltData4BA212404804B198B2DEC192799FC47C.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-00.04.38:760][798]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-00.04.38:760][798]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-00.04.38:760][798]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
+[2023.04.27-00.04.40:737][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.27-00.04.40:766][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2023.04.27-00.04.40:866][896]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent7A19C319467912DA67319F8EACEE3320.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent.umap'
+[2023.04.27-00.04.40:872][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/mansionCurrent_BuiltData" FILE="../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset" SILENT=true
+[2023.04.27-00.04.40:982][896]LogSavePackage: Moving '../../../../Stephanies_MOTH_Repository/Saved/mansionCurrent_BuiltDataADD5BF164CC600C59B0BFE99793FA5A0.tmp' to '../../../../Stephanies_MOTH_Repository/Content/Levels/mansionCurrent_BuiltData.uasset'
+[2023.04.27-00.04.41:010][896]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.27-00.04.41:010][896]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/mansionCurrent_BuiltData.mansionCurrent_BuiltData
+[2023.04.27-00.04.41:010][896]LogContentValidation: Display: Validating World /Game/Levels/mansionCurrent.mansionCurrent
